@@ -1,0 +1,10 @@
+# Java version
+java>=8
+
+# OpenCV for Java
+# Download from https://opencv.org/releases/
+opencv-java
+
+# Additional Notes:
+# - Ensure OpenCV native libraries are installed and accessible.
+# - This project uses Java Sound API which is part of standard JDK.

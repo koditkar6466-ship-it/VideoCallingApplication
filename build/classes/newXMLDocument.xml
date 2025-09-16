@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<path id="M:\GPM\5th sem\AJP\final\src\Server.java">
+    <pathelement location="M:\Apps\opencv\build\java\opencv-490.jar"/>
+</path>
+
+<target name="run">
+    <java classname="Server.java" fork="true">
+        <classpath refid="M:\GPM\5th sem\AJP\final\src\Server.java"/>
+        <jvmarg value="-Djava.library.path=M:\Apps\opencv\build\java\opencv-490.jar"/>
+        <arg line="args if any"/>
+    </java>
+</target>
+
+<path id="M:\GPM\5th sem\AJP\final\src\Client.java">
+    <pathelement location="M:\Apps\opencv\build\java\opencv-490.jar"/>
+</path>
+
+<target name="run">
+    <java classname="Client.java" fork="true">
+        <classpath refid="M:\GPM\5th sem\AJP\final\src\Client.java"/>
+        <jvmarg value="-Djava.library.path=M:\Apps\opencv\build\java\opencv-490.jar"/>
+        <arg line="args if any"/>
+    </java>
+</target>
+
+<root>
+    
+</root>
+
